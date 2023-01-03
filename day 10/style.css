@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 90%;
+   margin:auto;
+}
+
+nav{
+    background-color: blue;
+    width: 100%;
+    color: white;
+}
+
+nav ul{
+    list-style: none;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    position:relative;
+}
+
+nav ul li{
+    min-width: 100px;
+    line-height: 50px;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    display: block;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+nav ul li ul{
+    background: red;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    display:none;
+}
+
+nav ul li ul li{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: #19c1db;
+    
+}
+
+nav ul li:hover{
+    background:darkgreen;
+    
+}
+
+nav ul li:hover ul{
+    display: block;
+}

@@ -1,0 +1,26 @@
+.box1 {
+   background: red;
+   width: 9;
+   height: 100px;
+   margin-bottom: 10%;
+  
+}
+
+.box2{
+    background: green;
+    width: 25%;
+    height: 600px;
+    float: left;
+    margin-right: 30px;
+    
+}
+
+.box3{
+    background: blueviolet;
+    margin:auto;
+    width:500px;
+    height: 600px;
+    float: left;
+   
+    
+}
