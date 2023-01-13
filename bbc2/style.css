@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: auto;
+    width: 95%;
+    padding: 10px;
+    font-family: sans-serif;
+}
+.container img:hover{
+    opacity: 0.8;
+}
+.country{
+    border-left: 2px solid #f00;
+    padding-left: 10px;
+}
+.culture{
+    border-left: 2px solid rgb(0, 157, 255);
+    padding-left: 10px;
+}.news{
+    border-left: 2px solid rgb(255, 0, 0);
+    padding-left: 10px;
+}.sports{
+    border-left: 2px solid rgb(255, 196, 0);
+    padding-left: 10px;
+}
+
+
+header{
+    position: absolute;
+width: 100%;
+height: 64px;
+left: 0px;
+top: 0px;
+
+background: #000000;
+}
+
+.signin  {
+    color: white;
+    padding-left: 290px;
+    margin-top: -29px;
+}
+
+.signin a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.img1{
+    position: absolute;
+width: 115px;
+height: 36px;
+left: 86px;
+top: 15px;
+padding-left: 40px;
+background: url(322657476_855892685617223_6853068071347357269_n.jpg);
+
+
+}
+
+header .menu ul{
+    position: absolute;
+width: 674px;
+height: 30px;
+left: 460px;
+top: 2px;
+
+
+}
+
+header .menu ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .menu ul li a{
+   text-decoration: none;
+   color: white;
+   line-height: 65px;
+   font-family: sans-serif;
+   font-size: small;
+}
+
+.menu ul li{
+    position: relative;
+}
+
+.menu ul li ::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    transition: 0.2s;
+}
+
+.menu ul li :hover::after{
+    width: 100%;
+    align-items: center;
+}
+
+
+  .welcome {
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    color: rgb(47, 46, 46);
+    margin: 80px 0;
+}
+
+.page{
+    display: flex;
+    justify-content: space-between;
+}
+.page .left-side{
+    width: 50%;
+}
+.page .left-side .first-img, .img{
+    position: relative;
+}
+.page .left-side  img{
+    width: 100%;
+}
+.page .left-side .word{
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    padding: 5px 10px;
+    color: #fff;
+    z-index: 2;
+}
+.page .left-side .word .title{
+    margin: auto;
+}

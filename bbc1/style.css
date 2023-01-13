@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: absolute;
+width: 100%;
+height: 64px;
+left: 0px;
+top: 0px;
+
+background: #000000;
+}
+
+.img1{
+    position: absolute;
+width: 115px;
+height: 36px;
+left: 86px;
+top: 15px;
+padding-left: 40px;
+background: url(322657476_855892685617223_6853068071347357269_n.jpg);
+
+
+}
+
+header .menu ul{
+    position: absolute;
+width: 674px;
+height: 30px;
+left: 460px;
+top: 2px;
+
+
+}
+
+header .menu ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .menu ul li a{
+   text-decoration: none;
+   color: white;
+   line-height: 65px;
+   font-family: sans-serif;
+   font-size: small;
+}
+
+.menu ul li{
+    position: relative;
+}
+
+.menu ul li ::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    transition: 0.2s;
+}
+
+.menu ul li :hover::after{
+    width: 100%;
+    align-items: center;
+}
+
+.container{
+    width: 84%;
+    margin: auto;
+}
+
+.main{
+display: flex;
+justify-content:space-between;
+margin: 0;
+padding: 0;
+
+}
+
+.main h1{
+    font-size: 22px;
+    color: black;
+    margin-top: 90px;
+}
+
+.main h2{
+    font-size: 22px;
+    margin-top: 90px;
+    color: rgb(106, 103, 103);
+}
+
+.main-news{
+    display: flex;
+    
+}
+
+
+.container .main-news img{
+    width: 680px;
+    height: 410px;
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+}
+
+.main-news h1{
+    position: absolute;
+    margin-top: -150px;
+    font-size: 45px;
+    color: white;
+}
+
+.main-news p{
+    font-size: 15px;
+    position: absolute;
+    margin-top: -90px;
+    color: white;
+}
+
+.main-news .country{
+    margin-top: -30px;
+    color: white;
+    position: absolute;
+    margin-left:20px;
+    border-left: 3px solid red;
+    
+}
+
+.container1 .left-side{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+ 
+  .container1 .left-side img{
+    width:295px ;
+    height: 200px;
+    margin-left: 10px;
+    position: relative;
+    
+}
+
+.container2 .bottom-side{
+    display: flex;
+    
+}
+
+.container2 .bottom-side img{
+    width: 295px;
+    height: 200px;
+    margin-top: 230px;
+    margin-left: -600px;
+    position: relative;
+}
+
+  .container3 .bottom-right img{
+    width: 295px;
+    height: 200px;
+    margin-top: 230px;
+    margin-left: -295px;
+  }
+.left-side-image{
+    position: relative;
+    width: 49%;
+}
+
+
+.container1 .left-side .left-side-image h1{
+    font-size: 22px;
+    margin-top: 100px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.news .text h1{
+    margin-top: 450px;
+    margin-left: -1290px;
+    color: black;
+    font-size: 25px;
+    border-left: 3px solid red;
+}
+.web{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+.web p{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.contain{
+    width: 100%;
+    margin: 50px 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contain .left{
+    width: 50%;
+}
+.contain .right{
+    width: 49%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contain .right  .left-image{
+    width: 49%;
+}
+
+ .left-image p1{
+    position: absolute;
+    bottom: 50px;
+    font-size: 25px;
+}
+
+footer{
+    background-color: rgb(79, 77, 77);
+    color: #fff;
+}
+.footer-title{
+    color: #fff;
+}
+.footer-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-menu ul li {
+    width: 16%;
+}
+.footer-menu ul li a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    padding: 5px 0;
+    margin-right: 20px;
+    border-right: 1px solid #fff;
+}
+footer .terms{
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid rgb(247, 247, 247);
+}
+footer .terms ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+footer .terms ul li a{
+    text-decoration: none;
+    width: auto;
+    display: block;
+    font-size: 12px;
+    color: #fff;
+    margin-right: 10px;
+}
